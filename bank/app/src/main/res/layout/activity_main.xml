@@ -4,15 +4,95 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".login">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/blue_bg">
+                <ImageView
+                    android:layout_width="380dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/card" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
 
+                    />
+                <TextView
+                    android:id="@+id/musteriIsım"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="235dp"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="sans-serif"
+                    android:text="RUKİYE İREM SARISOY"
+                    android:textColor="@color/white"
+                    android:textSize="14.5sp" />
+                <TextView
+                    android:id="@+id/hesapNumara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginLeft="40dp"
+                    android:fontFamily="sans-serif"
+                    android:text="0000 0000 0000 0000"
+                    android:textColor="@color/white"
+                    android:textSize="20.5sp" />
+                <TextView
+                    android:id="@+id/sonTarih"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginLeft="150dp"
+                    android:fontFamily="sans-serif"
+                    android:text="11/22"
+                    android:textColor="@color/white"
+                    android:textSize="14.5sp" />
+                <TextView
+                    android:id="@+id/kartNumara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginLeft="45dp"
+                    android:fontFamily="sans-serif"
+                    android:text="0124"
+                    android:textColor="@color/white"
+                    android:textSize="14.5sp" />
+            </FrameLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="62dp"
+                android:layout_marginTop="12.7dp"
+                android:layout_marginRight="62dp"
+                android:background="@drawable/blue_border_rounded_cornwe">
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
