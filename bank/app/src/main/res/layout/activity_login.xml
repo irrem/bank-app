@@ -34,7 +34,7 @@
                 android:background="@drawable/blue_border_rounded_cornwe">
                 <!-- INPUT -->
                 <EditText
-                    android:id="@+id/email"
+                    android:id="@+id/emailTxt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/username_icon"
@@ -102,6 +102,7 @@
                 android:background="@drawable/blue_fill__rounded_color"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
+                android:onClick="loginOnClick"
                 android:paddingTop="14dp"
                 android:paddingBottom="14dp"
                 android:text="Login"

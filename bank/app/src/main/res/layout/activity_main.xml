@@ -75,21 +75,31 @@
                     android:textSize="14.5sp" />
             </FrameLayout>
 
-
-
-
             <RelativeLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="62dp"
-                android:layout_marginTop="12.7dp"
-                android:layout_marginRight="62dp"
-                android:background="@drawable/blue_border_rounded_cornwe">
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:id="@+id/linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="120dp">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TextView>
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TextView>
 
 
+                </LinearLayout>
 
             </RelativeLayout>
-
 
         </LinearLayout>
 
