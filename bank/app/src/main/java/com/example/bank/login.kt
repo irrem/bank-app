@@ -29,8 +29,6 @@ class login : AppCompatActivity() {
         }
 
     }
-
-
     fun loginOnClick(view: View){
         email= emailTxt.text.toString()
         password= findViewById<EditText>(R.id.password).text.toString()
@@ -54,5 +52,7 @@ class login : AppCompatActivity() {
             Toast.makeText(applicationContext, "Şifre ve Mail kısımları boş bırakılamaz!", Toast.LENGTH_LONG).show()
         }
     }
+
+
 
 }

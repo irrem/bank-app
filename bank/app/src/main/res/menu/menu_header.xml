@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sendMoney"
+        android:title="Hesaba Para Gönder"
+        />
+    <item
+        android:id="@+id/changePassword"
+        android:title="Şifreyi Değiştir"
+        />
+    <item
+        android:id="@+id/c1"
+        android:title="ddfgfdsgf"
+        />
+    <item
+        android:id="@+id/c3"
+        android:title="ddfgfdsgf"
+        />
+    <item
+        android:id="@+id/c2"
+        android:title="ddfgfdsgf"
+        />
+
+
+
+
+</menu>

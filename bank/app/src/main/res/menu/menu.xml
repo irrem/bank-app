@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:id="@+id/sendMoney" android:title="Para Gönder"></item>
+    <item android:id="@+id/sendMoneyMenuItem" android:title="Para Gönder"></item>
+    <item android:id="@+id/changePassword" android:title="Şifreyi Değiştir"></item>
     <item android:id="@+id/logout" android:icon="@drawable/logout"
         android:title="logout"
         app:showAsAction="ifRoom"></item>

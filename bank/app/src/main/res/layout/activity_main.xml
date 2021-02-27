@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -21,21 +21,16 @@
                     android:layout_width="380dp"
                     android:layout_height="250dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="40dp"
                     android:src="@drawable/card" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="80dp"
 
-                    />
                 <TextView
                     android:id="@+id/musteriIsım"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:layout_marginTop="235dp"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="50dp"
                     android:fontFamily="sans-serif"
                     android:text="RUKİYE İREM SARISOY"
                     android:textColor="@color/white"
@@ -45,8 +40,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:layout_marginTop="170dp"
-                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="50dp"
                     android:fontFamily="sans-serif"
                     android:text="0000 0000 0000 0000"
                     android:textColor="@color/white"
@@ -56,8 +51,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:layout_marginTop="205dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="185dp"
+                    android:layout_marginLeft="160dp"
                     android:fontFamily="sans-serif"
                     android:text="11/22"
                     android:textColor="@color/white"
@@ -67,42 +62,55 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="left"
-                    android:layout_marginTop="205dp"
-                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="185dp"
+                    android:layout_marginLeft="65dp"
                     android:fontFamily="sans-serif"
                     android:text="0124"
                     android:textColor="@color/white"
                     android:textSize="14.5sp" />
             </FrameLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp">
-                <LinearLayout
-                    android:id="@+id/linear"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="120dp">
-
-                    <TextView
-                        android:id="@+id/name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"></TextView>
-
-                    <TextView
-                        android:id="@+id/description"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"></TextView>
-
-
-                </LinearLayout>
-
-            </RelativeLayout>
-
         </LinearLayout>
 
+        <Button
+            android:id="@+id/sendMoney"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/blue_bg"
+            android:onClick="sendMoneyFunc"
 
+            android:text="Para Gönder" />
+
+        <Button
+            android:id="@+id/viewMoneyTransfer"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/blue_bg"
+            android:onClick="viewMoneyTransferFunc"
+            android:text="Hesabı görüntüle" />
+
+            <Button
+                android:id="@+id/sendMoney1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Faiz Oranları"
+                android:layout_marginTop="440dp"
+                android:layout_marginLeft="210dp"
+                android:background="@drawable/blue_bg"
+                />
+
+        <Button
+            android:id="@+id/gddj"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="440dp"
+            android:background="@drawable/blue_bg"
+            android:onClick="moneyMood"
+
+            android:text="Borsa" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
