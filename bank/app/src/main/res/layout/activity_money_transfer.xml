@@ -33,7 +33,7 @@
                 android:background="@drawable/blue_border_rounded_cornwe">
                 <!-- INPUT -->
                 <EditText
-                    android:id="@+id/toSend"
+                    android:id="@+id/toSendName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@android:color/transparent"

@@ -46,11 +46,14 @@ class MainActivity : AppCompatActivity() {
         //id "kotlin-android-extensions"
         auth= FirebaseAuth.getInstance()
     }
-    fun viewMoneyTransferFunc(view: View) {}
+    fun viewMoneyTransferFunc(view: View) {
+        val intent= Intent(applicationContext, FinanceView::class.java)
+        startActivity(intent)
+    }
     fun sendMoneyFunc(view: View) {
         val intent= Intent(applicationContext, MoneyTransfer::class.java)
         startActivity(intent)
-        finish()
+
     }
     fun moneyMood(view: View) {}
 }
